@@ -37,8 +37,8 @@ Module Module1
             input = Console.ReadLine.ToUpper
             If input = "B" Then
                 toBinary()
-            Else
-                input = "D"
+            ElseIf input = "D" Then
+
                 toDecimal()
             End If
         Loop While input.ToUpper() <> "Q"
